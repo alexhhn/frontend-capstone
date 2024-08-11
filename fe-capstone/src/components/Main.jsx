@@ -1,3 +1,4 @@
+import BookingForm from './BookingForm';
 function Main() {
 	return (
 		<main>
@@ -10,6 +11,10 @@ function Main() {
 				<p>
 					Explore our wide variety of dishes made from fresh, local ingredients.
 				</p>
+			</section>
+			<section className="content">
+				BookingForm
+				<BookingForm></BookingForm>
 			</section>
 		</main>
 	);
